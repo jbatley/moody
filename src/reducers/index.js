@@ -36,7 +36,7 @@ const cards = (state = initalState, action) => {
       return Object.assign({}, state, {
         items: state.items.map(i => {
           if (i.id === action.id) {
-            return { ...i, ...action.position };
+            return { ...i, ...action.card };
           }
           return i;
         }),
