@@ -1,0 +1,23 @@
+.add {
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.add path {
+  fill: var(--accent);
+  transition: fill 200ms ease;
+}
+
+.add:hover path {
+  fill: var(--accentDark);
+}
+
+.modal {
+  background: var(--white);
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
+}

@@ -1,0 +1,29 @@
+.card {
+  /* padding: 20px; */
+  margin: 20px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  background: var(--white);
+  border-radius: 3px;
+  cursor: -webkit-grab;
+  transition: box-shadow ease 200ms;
+  position: absolute;
+}
+
+.card::selection {
+  background: none;
+}
+
+.card:active {
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
+  cursor: -webkit-grabbing;
+}
+
+.resize {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 10px;
+  height: 10px;
+  background: red;
+  cursor: nwse-resize;
+}

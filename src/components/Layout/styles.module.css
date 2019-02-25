@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  padding: 10px 20px;
+  background: var(--main);
+  color: var(--white);
+}
+
+.main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

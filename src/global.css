@@ -1,0 +1,23 @@
+@import '~normalize.css';
+
+:root {
+  --main: #f1f3f5;
+  --mainDark: #e4e4e4;
+  --white: #ffffff;
+  --black: #333333;
+  --accent: #f67280;
+  --accentDark: #C45A64;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  background: var(--main);
+  color: var(--black);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 300;
+}
